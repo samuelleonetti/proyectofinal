@@ -1,0 +1,17 @@
+
+/* FOOTER */
+
+@import "./vars";
+
+.footer{
+  
+    background-color: $fondofooter;
+  
+    &__copy {
+        background-color:rgba(0, 0, 0, 0.2);
+  }
+  &__nombre{
+      background-color: $colorfondo;
+  }
+   
+}

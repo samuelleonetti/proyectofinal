@@ -1,0 +1,18 @@
+/* DISEÑO NAVEGACION HEADER */
+@import "./vars";
+@import "./responsive";
+
+
+.nav {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+  
+  
+  
+     &__titulo{
+      font-family: 'Caveat', cursive;
+    
+    }
+  }
+  

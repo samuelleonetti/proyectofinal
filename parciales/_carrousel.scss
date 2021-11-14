@@ -1,0 +1,29 @@
+/* CARROUSEL*/
+
+@import "./vars";
+@import "./tipografia";
+@import "./responsive";
+
+
+.hero  {
+    
+    .carousel-inner> .carousel-item> img {
+        width: 100%; 
+        height: 360px; 
+       }
+
+
+    @include movil {
+        &__imgs {
+          width: 35%;
+          height: auto;
+        }
+    }
+}
+
+.hero_imgs {
+    @include tablet {
+        height: auto;    
+        width: auto;
+        }
+}

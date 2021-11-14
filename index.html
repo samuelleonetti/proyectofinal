@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Blerse Olavarria, Showroom Olavarria, Ropa unisex Olavarria, buzo adidas, buzo nike, Tienda online, camperas, unisex, remeras, jogger, pantalones, blerse showroom, tienda de ropa olavarria, camperas gap, buzos vans ">
+    <meta name="description" content="Blerse Olavarria.Tienda Online de Indumentaria Unisex. La mejor calidad al mejor precio.">
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!--ICONOS-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
+    <!--CSS-->
+    <link rel="stylesheet" href="./estilos/styles.css">
+
+    <title>Blerse Olavarria | Tienda Online</title>
+</head>
+<body>
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand nav__titulo logo" href="./index.html"> <img src="./img/blerse.jpg" alt="logo"></a>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Tienda
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                      <li><a class="dropdown-item" href="./secciones/remeras.html">Remeras</a></li>
+                      <li><a class="dropdown-item" href="./secciones/buzos.html">Buzos</a></li>
+                      <li><a class="dropdown-item" href="./secciones/camperas.html">Camperas</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <li class="nav-item active">
+                <a class="nav-link" aria-current="page" href="./secciones/catalogo.html">Catalogo</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="./secciones/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="./secciones/galeria.html">Galeria</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" aria-current="page" href="./secciones/carrito.html">Carrito de Compras <i class="fas fa-store"></i></a>
+              </li>
+           
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!--CARROUSEL-->
+    <section>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner hero">
+          <div class="carousel-item hero_items active">
+            <img src="./img/img1.jpg" class="d-block w-100 hero__imgs" alt="sale">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/img2.jpeg" class="d-block w-100 hero__imgs" alt="muestreo">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/img3.jpg" class="d-block w-100 hero__imgs" alt="muestra de ropa">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--PRODUCTOS-->
+      <div class="container-fluid productos">
+          <div class="row">
+
+            <div class="col-md-3 mt-5 card text-center productos">
+                  <img src="./img/b1.jpeg" class="card-img-top productos__img" alt="buzo">
+                <div class="card-body">
+                   <h3 class="fw-bold">Buzo Nike</h3>
+                   <p class="card-text">$3.500</p>
+                   <p class="card-text">Hasta 6 cuotas sin interés.</p>
+                   <a href="#" class="btn btn-dark ">Comprar</a>
+                </div>
+            </div>
+           
+            <div class="col-md-3 mt-5 card text-center productos">
+                 <img src="./img/b2.jpeg" class="card-img-top productos__img" alt="buzo">
+                <div class="card-body">
+                  <h3 class="fw-bold">Buzo Nike</h3>
+                  <p class="card-text">$3.500</p>
+                  <p class="card-text">Hasta 6 cuotas sin interés.</p>
+                  <a href="#" class="btn btn-dark">Comprar</a>
+                </div>
+            </div>
+
+            <div class="col-md-3 mt-5 card text-center productos">
+                <img src="./img/b3.jpeg" class="card-img-top productos__img" alt="buzo">
+                <div class="card-body">
+                  <h3 class="fw-bold">Buzo Nike</h3>
+                  <p class="card-text">$3.500</p>
+                  <p class="card-text">Hasta 6 cuotas sin interés.</p>
+                  <a href="#" class="btn btn-dark">Comprar</a>
+                  </div>
+                </div>
+
+                  <div class="col-md-3 mt-5 card text-center  productos">
+                    <img src="./img/b4.jpeg" class="card-img-top productos__img" alt="buzo">
+                    <div class="card-body">
+                      <h3 class="fw-bold">Buzo Nike</h3>
+                      <p class="card-text">$3.500</p>
+                      <p class="card-text">Hasta 6 cuotas sin interés.</p>
+                      <a href="#" class="btn btn-dark">Comprar</a>
+                      </div>
+            </div>
+
+            <p class="placeholder-glow">
+              <span class="placeholder col-12"></span>
+            </p>
+      </div>
+      </div>
+
+      <div class="container-fluid productos">
+        <div class="row">
+
+          <div class="col-md-3 mt-5 card productos">
+                <img src="./img/b1.jpeg" class="card-img-top productos__img" alt="buzo">
+              <div class="card-body">
+                 <h3 class="text-center fw-bold">Buzo Nike</h3>
+                 <p class="card-text text-center">$3.500</p>
+                 <p class="card-text text-center">Hasta 6 cuotas sin interés.</p>
+              </div>
+          </div>
+         
+          <div class="col-md-3 mt-5 card productos">
+               <img src="./img/b2.jpeg" class="card-img-top productos__img" alt="buzo">
+              <div class="card-body">
+                <h3 class="text-center fw-bold">Buzo Nike</h3>
+                <p class="card-text text-center">$3.500</p>
+                <p class="card-text text-center">Hasta 6 cuotas sin interés.</p>
+              </div>
+          </div>
+
+          <div class="col-md-3 mt-5 card productos">
+              <img src="./img/b3.jpeg" class="card-img-top productos__img" alt="buzo">
+              <div class="card-body">
+                <h3 class="text-center fw-bold">Buzo Nike</h3>
+                <p class="card-text text-center">$3.500</p>
+                <p class="card-text text-center">Hasta 6 cuotas sin interés.</p>
+                </div>
+              </div>
+
+                <div class="col-md-3 mt-5 card productos">
+                  <img src="./img/b4.jpeg" class="card-img-top productos__img" alt="buzo">
+                  <div class="card-body">
+                    <h3 class="text-center fw-bold">Buzo Nike</h3>
+                    <p class="card-text text-center">$3.500</p>
+                    <p class="card-text text-center">Hasta 6 cuotas sin interés.</p>
+                    </div>
+          </div>
+        </div>
+<!-- FIN DE PRODUCTOS-->
+
+    
+  <!-- Footer -->
+  <footer class="text-center text-lg-start text-white footer">
+    <div class="container p-4 pb-0">
+      <section class="">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase footer__nombre">BLERSE OLAVARRIA</h5>
+            <p>
+             Blerse fue fundado a mediados de 2020 con la mision de llegar a todo el pais con la mejor indumentaria al mejor precio.
+            </p>
+          </div>
+        <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Secciones</h5>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="./index.html" class="text-white">Inicio</a>
+              </li>
+              <li>
+                <a href="./secciones/catalogo.html" class="text-white">Tienda</a>
+              </li>
+              <li>
+                <a href="./secciones/contacto.html" class="text-white">Contacto</a>
+              </li>
+              <li>
+                <a href="./secciones/galeria.html" class="text-white">Galeria</a>
+              </li>
+            </ul>
+          </div>
+        <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links </h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="./secciones/buzos.html" class="text-white">Buzos</a>
+              </li>
+              <li>
+                <a href="./secciones/camperas.html" class="text-white">Camperas</a>
+              </li>
+              <li>
+                <a href="./secciones/remeras.html" class="text-white">Remeras</a>
+              </li>
+              <li>
+                <a href="./secciones/joggers.html" class="text-white">Joggers</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Para comprar</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Carrito de Compras</a>
+              </li>
+              <li>
+                <a href="./secciones/contacto.html" class="text-white">Registrese aquí</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Terminos y condiciones</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Formas de pago</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Información</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Sobre Nosotros</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Ubicación</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Nuestros Clientes</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Misión</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <hr class="mb-4" />
+
+      <!--CUENTA -->
+      <section class="">
+        <p class="d-flex justify-content-center align-items-center">
+          <button type="button" class="btn btn-outline-light btn-rounded">
+            Regístrarse
+          </button>
+        </p>
+      </section>
+      
+
+      <hr class="mb-4" />
+
+      <!--REDES SOCIALES -->
+      <section class="mb-4 text-center">
+        <!-- Facebook -->
+        <a
+           class="btn btn-outline-light btn-floating m-1"
+           href="https://www.facebook.com/blerseolavarria"
+           role="button"
+           ><i class="fab fa-facebook-f"></i
+          ></a>
+
+        <!-- Twitter -->
+        <a
+           class="btn btn-outline-light btn-floating m-1"
+           href="https://twitter.com/SamuelLeonetti"
+           role="button"
+           ><i class="fab fa-twitter"></i
+          ></a>
+
+
+        <!-- Instagram -->
+        <a
+           class="btn btn-outline-light btn-floating m-1"
+           href="https://www.instagram.com/blerseolavarria/"
+           role="button"
+           ><i class="fab fa-instagram"></i
+          ></a>
+
+   
+      </section>
+      </div>
+    <!-- Copyright -->
+    <div  class="text-center p-3 footer__copy">
+      © 2021 Copyright:
+      <a class="text-white" href="https://www.linkedin.com/in/samuel-leonetti-b77113143/"
+         >SamuelLeonetti</a>
+    </div>
+  </footer>
+  
+
+
+    </main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script> 
+</body>
+</html>

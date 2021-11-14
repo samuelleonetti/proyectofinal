@@ -1,0 +1,20 @@
+/* PRODUCTOS */
+
+@import "./vars";
+@import "./responsive";
+
+.productos {
+    background-color: $colorfondo;
+
+ &__img {
+     border-radius: 5px;
+     @include movil {
+         width: auto;
+         height: auto;
+     }
+
+ }
+
+ 
+  }
+  

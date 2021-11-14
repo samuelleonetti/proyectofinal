@@ -1,0 +1,64 @@
+/*FORMULARIO DE CONTACTO */
+
+@import "./vars";
+@import "./tipografia";
+@import "./responsive";
+
+
+.contacto {
+    background-color: $colorfondo;
+    display: flex;
+    @include movil {
+      width: auto;
+      height: auto;
+  }
+
+
+
+ &__legend {
+    font-family: 'Caveat', cursive;
+    color: black;
+    font-size: 3rem;
+    padding: 10px;
+    align-items: center;
+    
+  }
+
+
+&__titulo {
+  font-family: 'Caveat', cursive;
+}
+
+ &__form {
+   display: flex;
+   align-items: center;
+ } 
+}
+  
+  .estilo-logo {
+    font-size: 2.20rem;
+    color: white; }
+
+
+.map{
+ overflow:hidden;
+ padding-bottom:56.25%;
+ position:relative;
+ height:0;
+ @include movil {
+  width: 30%;
+  height: 30%;
+}
+}
+.map iframe{
+  width: 100%;
+  height: 100%;
+  position:absolute;
+   @include movil {
+     display: flex;
+     flex-direction: column;
+      width: 30%;
+      height: 30%;
+    }
+}
+

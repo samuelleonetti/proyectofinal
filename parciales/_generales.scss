@@ -1,0 +1,13 @@
+@import "./vars";
+@import "./tipografia";
+
+
+
+h3 {
+    @include font-size(1.8rem, 1.4rem) 
+}
+
+p {
+    @include font-size(1.2rem, 1rem);
+}
+
