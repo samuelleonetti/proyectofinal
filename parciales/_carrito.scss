@@ -1,0 +1,16 @@
+@import "./vars";
+@import "./tipografia";
+@import "./responsive";
+
+
+
+.carrito {
+    background-color: $colorfondo;
+    background: none;
+    display: flex;
+    padding-left:0 3rem;
+    @include movil {
+      width: auto;
+      height: auto;
+  }
+}

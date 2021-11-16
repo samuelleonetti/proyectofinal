@@ -42,6 +42,7 @@ p {
 
 .nav__titulo {
   font-family: 'Caveat', cursive;
+  max-width: 100%;
 }
 
 /* CARROUSEL*/
@@ -80,12 +81,29 @@ p {
   }
 }
 
+.carrito {
+  background-color: #6c757d;
+  background: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0 3rem;
+}
+
+@media screen and (max-width: 425px) {
+  .carrito {
+    width: auto;
+    height: auto;
+  }
+}
+
 /*FORMULARIO DE CONTACTO */
 .contacto {
   background-color: #6c757d;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-left: 0 3rem;
 }
 
 @media screen and (max-width: 425px) {
@@ -138,8 +156,7 @@ p {
 }
 
 .map iframe {
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
   position: absolute;
 }
 

@@ -25,7 +25,7 @@
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <a class="navbar-brand nav__titulo logo" href="../index.html"><h2>BLERSE OLAVARRIA</h2></a>
+              <a class="navbar-brand nav__titulo logo" href="../index.html"><img src="../img/blerse.jpg" alt="logo"></a>
               <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav align-items-center">
                   <li class="nav-item">
@@ -69,9 +69,10 @@
   <section> 
              <div class="container-fluid">
              <div class="row">
-             <div class="card col-sm-8 contacto">
+             <div class="card col-md-8 contacto">
+               <form action="">
                <div class="mb-3 text-center">
-                     <h3 class="mt-3 contacto__titulo">Contacto</h3> 
+                     <h1 class="mt-3 contacto__titulo">Contacto</h1> 
                   </div>
                 <div class="mb-2">
                       <i class="fa fa-user estilo-logo"></i>
@@ -98,41 +99,50 @@
                       <textarea class="form-control" id="message" name="message" placeholder="Deje aquí su comentario" rows="7"></textarea>
                     </div>
                 <div class="mb-2 text-center">
-                      <button type="submit" class="btn btn-dark btn-lg">Enviar</button>
+                  <button type="submit" class="btn btn-dark btn-lg">Enviar</button>
+                </form>
                    </div>
                   </div>
-                </div> 
-              </div>
-
-  <!--UBICACION-->
-  <div class="container-fluid d-flex">
-  <div class="row">
-  <div class="col-sm-4">
-    <!--Card-->
-    <div class="mb-3 text text-center">
-        <h5 class="mt-3 contacto__titulo">Ubicación</h5>
+    <!--UBICACION-->
+       <div class="col-md-4 contacto">
+       <div class="mb-3 text text-center">
+      <h3 class="mt-3 contacto__titulo">Ubicación</h3>
     </div>
-      <!--Card content-->
+      <!--MAPA DE UBICACIÓN-->
       <div class="card-body card-body-cascade text-center">
-        <div class="text-center map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2596.9196077352126!2d-60.30870998511063!3d-36.88807998941271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959445d9a9641b2b%3A0xae0c5b97c7e6007f!2s9%20de%20Julio%204178%2C%20Olavarr%C3%ADa%2C%20Provincia%20de%20Buenos%20Aires!5e1!3m2!1ses!2sar!4v1636807628293!5m2!1ses!2sar" height="300" width="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <div class="text-center">
+          <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2596.9196077352126!2d-60.30870998511063!3d-36.88807998941271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959445d9a9641b2b%3A0xae0c5b97c7e6007f!2s9%20de%20Julio%204178%2C%20Olavarr%C3%ADa%2C%20Provincia%20de%20Buenos%20Aires!5e1!3m2!1ses!2sar!4v1636807628293!5m2!1ses!2sar" height="300" width="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
-        <div class="mb-3 text text-center">
-          <h5 class="mt-3 contacto__titulo">9 de julio 4178. Olavarria. 7400</h5>
+        <div class="mb-3 text-center">
+          <h3>Contacto</h3>
+            <p>
+              <a class="btn btn-outline-light btn-floating m-1" href="https://wa.link/nkitox">
+                <i class="fab fa-whatsapp"></i><br>2284 67-9050
+              </a>
+            </p>
+            <p><i class="fas fa-map-marker-alt"></i><br>Olavarria — Buenos Aires</p>
+            <p><i class="fas fa-phone"></i><br>+54 9 2284 67-9050</p>
+            <p>
+              <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/blerseolavarria/" role="button">
+                <i class="fab fa-instagram"></i>
+              </a>
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/blerseolavarria" role="button"> 
+              <i class="fab fa-facebook-f"></i>
+            </a>  
       </div>
 
       </div>
  
     </div>
     </div>
-  </div>
-    <!--/.Card-->
+  
+
   </section>
   
   <!-- Footer -->
   <footer class="text-center text-lg-start text-white footer">
     <div class="container p-4 pb-0">
-      <section class="">
+      <section>
         <div class="row">
           <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
             <h5 class="text-uppercase footer__nombre">BLERSE OLAVARRIA</h5>
